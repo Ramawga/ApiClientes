@@ -4,4 +4,4 @@ A API backend foi construída utilizando Node.js e está conectada ao banco de d
 
 Este projeto simples exemplifica a integração básica entre um backend robusto e um frontend interativo, sendo ideal para treinamento e desenvolvimento de habilidades em desenvolvimento web.
 
-//se voce quiser replicar esse projeto, só vai ficar faltando um arquivo pra fazer a conexão com o mongod.
+//se voce quiser replicar esse projeto, só vai ficar faltando um arquivo pra fazer a conexão com o mongodb.
