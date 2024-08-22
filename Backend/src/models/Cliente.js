@@ -1,0 +1,12 @@
+import mongoose from "mongoose";
+
+const clienteSchema = new mongoose.Schema ({
+    id: {type: mongoose.Schema.Types.ObjectId},
+    nome: { type:String, required:true },
+    cidade: { type:String },
+    idade: { type:Number },
+    cargo: { type:String }
+}, { versionKey:false });
+
+const cliente = mongoose.model("Clientes", clienteSchema)
+export default cliente
